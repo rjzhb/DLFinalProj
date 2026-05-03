@@ -1,0 +1,8 @@
+sentence-transformers
+torch
+faiss-cpu
+rank_bm25
+matplotlib
+numpy
+scikit-learn
+tqdm

@@ -1,0 +1,29 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.egg-info/
+.pytest_cache/
+
+# LaTeX build artifacts
+*.aux
+*.bbl
+*.blg
+*.log
+*.out
+*.fls
+*.fdb_latexmk
+*.synctex.gz
+texput.*
+
+# Model checkpoints and embeddings (too large for git)
+outputs/models/*/model.safetensors
+outputs/models/*/*/model.safetensors
+outputs/embeddings/
+checkpoints/
+
+# Editor
+.vscode/
+.idea/
+*.swp
+.DS_Store
